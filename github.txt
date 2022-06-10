@@ -1,0 +1,51 @@
+- GitHub 사용법 -
+https://github.com/
+
+
+1. 깃허브 가입 (https://github.com/)
+
+/* 설치 start*/
+
+2. https://git-scm.com/download/win -> download for Windows (bit 확인!!)
+-> exe 파일 실행 -> use visual stiduo code 선택 -> finish -> Git Bash 실행 
+
+/* 설치 end*/
+
+
+
+
+
+3. 내 컴퓨터에 git을 설정한 폴더와 파일들을 정한다.
+-> git 을 설정한 폴더로 이동
+******************* 해당 폴더 우클릭 -> gitBash Here 로 이동해... *******************
+
+4. 3에서 정한 폴더를 저장소로 만들기. (git init)
+
+
+5. gitHub 사이트에서 new repository 클릭 -> Repository name, Description 입력 -> public 체크
+-> create repository 버튼 클릭
+(# readme 파일은 꼭 README..md로 저장!!!)
+
+- pwd 입력 (현재 위치 확인)
+- cd .. : 한단계 상위 루트로 이동
+- cd ~ : 최상위 루트로 이동
+- ls : 현재 상태에서 보이는 모든 디렉토리에 모든 파일과 폴더를 보여준다.
+- cd (드라이브)) : 해당 드라이브로 이동
+- git init : 저장소로 만든다.
+- ls -al : 숨김파일까지 모두 보임.
+- git status : 현재 상태 확인
+
+6.git hub와 연결
+-git config --global user.email "alzkehfk@naver.com"
+-git config --global user.name "Jaengtol"
+
+7.올릴 파일 선택, commit 지정(하나의 버전)
+-git add 파일명
+-git commit -m "메세지"
+
+
+
+* git이란??
+깃은 컴퓨터 파일의 변경사항을 추적하고 여러 명의 사용자들 간에
+해당 파일들의 작업을 조율하기 위한 분산 버전 관리 시스템이다.
+또는 이러한 명령어를 가리킨다. 
